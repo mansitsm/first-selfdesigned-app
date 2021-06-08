@@ -1,0 +1,58 @@
+h1{color:rgb(241, 84, 11)}
+
+.header{
+    border:solid;
+    border-color:rgb(255, 255, 255) ;
+    background-color: rgb(18, 73, 27);
+    display:flex;
+justify-content: space-evenly;
+
+
+
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+margin: 30px;
+}
+
+.items{
+    background-color:brown ;
+    border:solid;
+    
+    opacity: 1;
+   text-decoration-color: white;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: rgb(241, 240, 241);
+    align-items: center;
+}
+.items1{
+    opacity: 1;
+    background-image: url("1.png");
+    border:solid;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: rgb(241, 241, 245);
+    align-items: center;
+}
+.para{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: bolder;
+}
+.main{
+
+    background-image: url("1.png");
+    display:flex;
+    width: 100vw;
+
+height:100vh;
+flex-direction: column;
+justify-content: stretch;
+
+}
+
